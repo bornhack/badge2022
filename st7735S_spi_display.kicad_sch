@@ -525,7 +525,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e6397214-9de1-40c7-a9f2-7d9fe1229f81)
     (property "Reference" "R6" (id 0) (at 101.6 83.82 90))
-    (property "Value" "22R" (id 1) (at 101.6 86.36 90))
+    (property "Value" "27R" (id 1) (at 101.6 86.36 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 101.6 87.122 90)
       (effects (font (size 1.27 1.27)) hide)
     )

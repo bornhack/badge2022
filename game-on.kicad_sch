@@ -223,16 +223,12 @@
 
 
   (no_connect (at 161.29 114.3) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 99.06) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 86.36) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 73.66) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 116.84 78.74) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 116.84 81.28) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 116.84 93.98) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 76.2) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 78.74) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 81.28) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
-  (no_connect (at 161.29 83.82) (uuid 885166ce-5c70-4601-b020-871ac880d28f))
+  (no_connect (at 161.29 99.06) (uuid 885166ce-5c70-4601-b020-871ac880d290))
+  (no_connect (at 161.29 86.36) (uuid 885166ce-5c70-4601-b020-871ac880d291))
+  (no_connect (at 116.84 93.98) (uuid 885166ce-5c70-4601-b020-871ac880d295))
+  (no_connect (at 161.29 78.74) (uuid 885166ce-5c70-4601-b020-871ac880d297))
+  (no_connect (at 161.29 81.28) (uuid 885166ce-5c70-4601-b020-871ac880d298))
+  (no_connect (at 161.29 83.82) (uuid 885166ce-5c70-4601-b020-871ac880d299))
 
   (wire (pts (xy 102.87 101.6) (xy 102.87 96.52))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -759,25 +755,9 @@
     (property "Sheet file" "rp2040.kicad_sch" (id 1) (at 116.84 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "SWDCLK" input (at 116.84 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 160612b3-3b61-4bef-864d-1ee23610d186)
-    )
-    (pin "SWDIO" input (at 116.84 81.28 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a72d7cca-e348-4718-9a55-714ce4a167c1)
-    )
     (pin "RTS1{slash}AUD_BCLK" input (at 161.29 78.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ace7639f-6417-48f7-a740-97e79adf17ca)
-    )
-    (pin "TX1" input (at 161.29 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 919c0c25-7055-47fd-b261-9e8338671c7c)
-    )
-    (pin "RX1" input (at 161.29 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 165478ee-f366-4bac-9d9b-32fa0d2d68ec)
     )
     (pin "CTS1{slash}AUD_LRCLK" input (at 161.29 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1219,10 +1199,10 @@
       (reference "C14") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/5ad664c3-f356-4841-8269-82adc30d86c0"
-      (reference "C15") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C15") (unit 1) (value "30pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/ea91146b-c19d-4537-8775-9f2d267eaaf0"
-      (reference "C16") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C16") (unit 1) (value "30pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/c9ca9cc8-0d9a-4009-b2ce-622ed1a311be"
       (reference "C17") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1270,7 +1250,7 @@
       (reference "R5") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c02f64c6-7bbb-4eb3-b45b-4884d1936fa5/e6397214-9de1-40c7-a9f2-7d9fe1229f81"
-      (reference "R6") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "27R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/fd512a0a-8aa8-4c8b-a8c7-87b1941096a0"
       (reference "R7") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1291,10 +1271,10 @@
       (reference "R12") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/310fe9e5-1690-4a7e-bc0e-07816d458a90"
-      (reference "R13") (unit 1) (value "27") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R13") (unit 1) (value "27R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/66a007aa-690f-49cd-ac96-98fe74602400/d0e4cb32-8594-4bd2-9097-a3cd4b6c61a5"
-      (reference "R14") (unit 1) (value "27") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R14") (unit 1) (value "27R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/877ac62c-7fa2-4c18-8d3c-0d6e89de9449/533ac147-192e-43e4-b55c-d5c862a6a445"
       (reference "SW1") (unit 1) (value "POWER") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
