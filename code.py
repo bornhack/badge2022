@@ -148,14 +148,14 @@ text_area = label.Label(terminalio.FONT, text=text, color=0x000000)
 text_group.append(text_area)  # Subgroup for text scaling
 splash.append(text_group)
 
-time.sleep(5)
+time.sleep(1)
 
 # Create the slideshow object that plays through once alphabetically.
 slideshow = SlideShow(display,
                       folder="/images",
                       loop=True,
                       order=PlayBackOrder.ALPHABETICAL,
-                      dwell=5)
+                      dwell=2)
 i=0
 
 while slideshow.update():
@@ -164,9 +164,9 @@ while slideshow.update():
         pass
     else:
         display.show(splash)
-        time.sleep(5)
+        time.sleep(0.5)
         break
-    time.sleep(5)
+    time.sleep(2)
 
 selected = 1    
 menu = displayio.Group()
