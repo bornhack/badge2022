@@ -14,6 +14,12 @@ For those that want to experiment with expanding the badge with a bit more hardw
 
 There are also some mounting holes (they fit M3 screws), for mounting an additional add-on board or maybe a 3D printed case. If you want to make your own expansion board, there is [an add-on template](https://github.com/bornhack/badge2022/tree/add-on-template) (it's in the `add-on-template` branch in this repo), that you can open up and customize to your liking before ordering. There will also be some prototyping boards available in the Hardware Hacking Tent at BornHack along with some basic parts, similar to last year.
 
+## CircuitPython restore file
+
+If you flash the board with something else and want to get back to CircuitPython, you can bring the badge into the UF2 bootloader by holding the BOOT button and pressing RESET (you can also hold BOOT when powering on). The badge will then show up as a mass storage device called something like RP2-? which is the build in bootloader and you simply copy over the [firmware.uf2](https://github.com/bornhack/badge2022/raw/hardware/firmware.uf2) file from the root of this repository. The badge will reboot, and you are then back to CircuitPython
+
+The original python files that was on the badge when handed out are in the [cp-init branch](https://github.com/bornhack/badge2022/tree/cp-init)
+
 ## Designed in KiCad v6
 
 This board is designed in KiCad v6. To open the project, you will need to install a recent release version or one of the nightly builds, KiCad v5 won't open this design. The [schematic as a PDF](https://github.com/bornhack/badge2022/raw/hardware/schematic.pdf) is included for reference.
