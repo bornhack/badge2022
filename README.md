@@ -24,6 +24,13 @@ The original python files that was on the badge when handed out are in the [cp-i
 
 This board is designed in KiCad v6. To open the project, you will need to install a recent release version or one of the nightly builds, KiCad v5 won't open this design. The [schematic as a PDF](https://github.com/bornhack/badge2022/raw/hardware/schematic.pdf) is included for reference.
 
+## Projects running on the badge
+
+Feel free to submit a PR adding on to this list with your project that runs on the badge.
+
+[Video player and AM radio transmitter](https://github.com/kbeckmann/bornhack-badge2022-audiovideo) by Konrad Beckmann. See it in action [here](https://twitter.com/kbeckmann/status/1556251282742075393) and [here](https://twitter.com/kbeckmann/status/1555895391463346176).
+
+
 ## License
 
 The contents of this repository is released under the following license:
