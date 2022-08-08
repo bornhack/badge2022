@@ -28,8 +28,8 @@ This board is designed in KiCad v6. To open the project, you will need to instal
 
 Feel free to submit a PR adding on to this list with your project that runs on the badge.
 
-[Video player and AM radio transmitter](https://github.com/kbeckmann/bornhack-badge2022-audiovideo) by Konrad Beckmann. See it in action [here](https://twitter.com/kbeckmann/status/1556251282742075393) and [here](https://twitter.com/kbeckmann/status/1555895391463346176).
-
+- [Video player and AM radio transmitter](https://github.com/kbeckmann/bornhack-badge2022-audiovideo) by Konrad Beckmann. See it in action [here](https://twitter.com/kbeckmann/status/1556251282742075393) and [here](https://twitter.com/kbeckmann/status/1555895391463346176).
+- [Small adventure hack'n'slash game](https://github.com/MrJavaWolf/BornHack2022Game) by Jens 'JWolf' Larsen. See the [preview here](https://raw.githubusercontent.com/MrJavaWolf/BornHack2022Game/main/resources/teaser-video.mp4).
 
 ## License
 
