@@ -66,6 +66,7 @@ bl = pwmio.PWMOut(board.PWM0, frequency=5000, duty_cycle=0)
 bl.duty_cycle = 60000
 
 def DrawMenu(currentselected, paths):
+    menu = displayio.Group()
     rim_bitmap = displayio.Bitmap(128, 160, 1)
     rim_palette = displayio.Palette(1)
     rim_palette[0] = 0x000000 #black
@@ -141,7 +142,6 @@ while slideshow.update():
     time.sleep(0.5)
 
 selected = 1    
-menu = displayio.Group()
 
 dir_path = r'apps/'
 
